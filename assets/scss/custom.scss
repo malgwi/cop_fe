@@ -1,0 +1,28 @@
+$theme-colors: (
+  'primary': #138750,
+  'secondary': #70e6af1a,
+  'success': #1ce1ac,
+  'info': #125797,
+  'warning': #ffbe0b,
+  'danger': #EB5757,
+  'light': #c0ccda,
+  'dark': #06b463,
+);
+.webster{
+  font-family: Merriweather;
+}
+.modal-header {
+  display: block !important;
+  border-bottom: 0 !important;
+}
+.modal-footer {
+  border-top: 0 !important;
+}
+.app-link__text{
+  text-decoration: none !important;
+}
+// html{
+//   font-family: 'SFProDisplay';
+// }
+@import '~/node_modules/bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
